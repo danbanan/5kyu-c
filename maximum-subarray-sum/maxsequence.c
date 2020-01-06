@@ -12,5 +12,5 @@ int maxSequence(const int *array, size_t n)
       max = (tmp > max) ? tmp : max;
     }
 
-  return (max < 0) ? 0 : max;
+  return max;
 }
