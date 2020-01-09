@@ -5,7 +5,7 @@
   You have to produce a result in the form ~{{N_1, D} ... {N_n, D}}~ in which ~D~
   is as small as possible.
 
-  *Example:* ~convertFracs {{1, 2}, {1, 3}, {1, 4}}~ should return
+  *Example:* ~convertFracs ({{1, 2}, {1, 3}, {1, 4}})~ should return
   ~{{6, 12}, {4, 12}, {3, 12}}~.
 
 ** Note
